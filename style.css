@@ -1,0 +1,234 @@
+body {
+    background-color: #bc8f8f;
+}
+
+.nav {
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.item {
+    display: inline-block;
+    padding: 15px 50px;
+    cursor: pointer;
+}
+
+.nav-link {
+    color: #381D2A;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.nav-link:active {
+    color: #F39B6D;
+}
+
+.banner {
+    background-color:#502D33;
+    color: white;
+    padding: 40px 15px;
+    margin: 0 100px 80px;
+    border: 2px solid #502D33;
+    border-radius: 15px;
+}
+
+.banner h2 {
+    width: 550px;
+    font-weight: 200;
+}
+
+/* Colors section*/
+
+.container {
+    margin: 80px 100px;
+    padding: 40px 15px;
+    border: 2px solid #502D33;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.container h2, .font-container p {
+    color: #502D33;
+}
+
+.container-color {
+    display: flex;
+    width: 100%;
+    margin: 40px 0;
+}
+
+.panel-color {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    min-height: 300px;
+    margin: 0 auto;
+}
+
+.dark-purple {
+    background-color: #381D2A;
+    color: #fff;
+}
+
+.old-burgundy {
+    background-color: #502D33;
+    color: #fff;
+}
+
+.rose-ebony {
+    background-color: #673D3B;
+    color: #fff;
+}
+.redwood {
+    background-color: #965C4C;
+    color: #fff;
+}
+.atomic-tangerine {
+    background-color: #F39B6D;
+    color: #fff;
+}
+
+/* Fonts section*/
+
+.font-panel {
+    width: 45%;
+    display: inline-block;
+}
+
+.font-label {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.regular {
+    font-style: normal;
+}
+.bold {
+    font-weight: 700;
+}
+.italic {
+    font-style: italic;
+}
+
+.big-caslon {
+    font-family: 'Big Caslon', serif;
+}
+
+.nunito {
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Text styles section*/
+
+.text-container {
+    display: flex;
+    width: 100%;
+}
+
+.text-panel {
+    width: 25%;
+    display: block;
+    margin: 0px auto;
+    color: #502D33;
+}
+
+.text-panel h1 {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.text-panel h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.text-panel p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Big Caslon', serif;
+}
+
+
+/* Buttons section*/
+
+.button-container {
+    display: flex;
+    width: 100%;
+}
+
+.button-label {
+    width: 15%;
+    display: block;
+    margin: 10px auto;
+    color: #502D33;
+    text-align: center;
+}
+
+.skeuomorphic-button {
+    border: 2px solid #ae6c56;
+    padding: 10px;
+    border-radius: 5px;
+    color: #F8F8F8;
+    text-shadow: 0 -2px #ba5106;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), 0px -2px 2px rgba(255, 255, 255, 0.5) inset, 0 2px 2px rgba(255, 255, 255, 0.8) inset;
+    background: #965C4C;
+    background: linear-gradient(#965C4C, #AE6C55);
+    text-shadow: 0 -2px #ae6c56;
+  }
+   
+  .skeuomorphic-button:hover {
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset;
+    background: #ae6c56;
+    background: linear-gradient(#ae6c55, #ae6c56);
+    border-color: #502D33;
+  }
+   
+  .skeuomorphic-button:active {
+    margin-top: 2px;
+    margin-bottom: -2px;
+    box-shadow: 0px 2px 2px rgba(63, 63, 63, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset;
+    background: #F39B6D;
+    background: linear-gradient(#ae6c55, #F39B6D);
+  }
+  
+  /*flat button*/
+
+  .flat-button {
+    background-color: #965C4C;
+    color: #fff;
+    border: 2px solid #965C4C;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .flat-button:hover {
+    background-color: #502D33;
+    transition: background-color .15s, font-size .15s;
+    font-size: 17px;
+  }
+  
+  .flat-button:active {
+    border-color: #fff;
+  }
+
+  footer {
+    text-align: center;
+  }
